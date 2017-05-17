@@ -8,27 +8,156 @@
     <!-- header -->
     <div class="app-header">
 
+      <div class="container">
+        <div class="jumbotron">
+          <h1>Hello, world!</h1>
+          <p>...</p>
+          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+        </div>
+      </div>
+
     </div>
 
     <!-- nav -->
     <div class="app-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button aria-controls="bs-navbar" aria-expanded="false" class="collapsed navbar-toggle" data-target="#bs-navbar" data-toggle="collapse" type="button">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-brand">Profile</a>
+        </div>
+        <nav class="collapse navbar-collapse" id="bs-navbar">
+          <ul class="nav navbar-nav">
+            <li> <a href="#info1">Info 1</a> </li>
+            <li> <a href="#info2">Info 2</a> </li>
+            <li> <a href="#info3">Info 3</a> </li>
+          </ul>
+        </nav>
+      </div>
 
     </div>
 
     <!-- content -->
     <div class="app-content">
+      <div class="container">
+          <a name="info1"></a>
+          <h1>Infomation 01.</h1>
+
+          <div class="form-horizontal">
+              <div class="form-group">
+                  <div class="col-sm-2 text-right"><b>Name</b></div>
+                  <div class="col-sm-10">
+                      Thomas Jang
+                  </div>
+              </div>
+              <div class="form-group">
+                  <div class="col-sm-2 text-right"><b>Mobile</b></div>
+                  <div class="col-sm-10">
+                      <a href="tel:01088819137">+82 10 8881 9137</a>
+                  </div>
+              </div>
+              <div class="form-group">
+                  <div class="col-sm-2 text-right"><b>Email</b></div>
+                  <div class="col-sm-10">
+                      <a href="mailto:tom@axisj.com">tom@axisj.com</a>
+                  </div>
+              </div>
+              <div class="form-group">
+                  <div class="col-sm-2 text-right"><b>Age</b></div>
+                  <div class="col-sm-10">
+                      41
+                  </div>
+              </div>
+              <div class="form-group">
+                  <div class="col-sm-2 text-right"><b>Homepage</b></div>
+                  <div class="col-sm-10">
+                      <a href="https://github.com/thomasJang">https://github.com/thomasJang</a>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+
+      <a name="info2"></a>
+      <div class="container">
+          <h1>Infomation 02.</h1>
+      </div>
+      <div class="photo-box">
+
+          <div class="photo" style="background-image:url('https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/18423674_1523931047674185_5032735866609796063_n.jpg?oh=f8aa1f953a105e1cc463c10197c52315&oe=59BA2030');">
+          </div>
+          <div class="photo" style="background-image:url('https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/18403717_1522270131173610_6050462719615827210_n.jpg?oh=8f638d79e6f7112b8cb7a86381bfc1ee&oe=59B212E7');">
+          </div>
+          <div class="photo" style="background-image:url('https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/18157970_1509552915778665_8036106957985429768_n.jpg?oh=811d3d2b4890cb5433f40af8a1f016cd&oe=597A9BAE');">
+          </div>
+          <div class="photo" style="background-image:url('https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/18033146_1500604676673489_815539618177587620_n.jpg?oh=b24cf5d2c21fc80844558fa8821b5adb&oe=59B310C7');">
+          </div>
+          <div class="photo" style="background-image:url('https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/18057004_1498129443587679_8909560274017840497_n.jpg?oh=73c76858e92ea48eb54251558d8ddf9c&oe=597A4CEA');">
+          </div>
+          <div class="photo" style="background-image:url('https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/17903816_1490904967643460_4553223224883043905_n.jpg?oh=81b85ad2ab0e51cd9380d853be323910&oe=59C255AC');">
+          </div>
+          <div class="photo" style="background-image:url('https://scontent-icn1-1.xx.fbcdn.net/v/t31.0-8/17917503_1490301584370465_969807502118231839_o.jpg?oh=9197d0fd1a3c80d491155eaeb4341803&oe=59BB1457');">
+          </div>
+          <div class="photo" style="background-image:url('https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/17951657_1489555131111777_2796633456880967574_n.jpg?oh=12f60296ca2440c29a6bbd2837686f68&oe=59A64E10');">
+          </div>
+
+      </div>
+
+      <a name="info3"></a>
+      <div class="container">
+          <h1>Infomation 03.</h1>
+
+          <table class="table">
+              <caption>Optional table caption.</caption>
+              <thead>
+              <tr>
+                  <th>#</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Username</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+              </tr>
+              <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+              </tr>
+              <tr>
+                  <th scope="row">3</th>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+              </tr>
+              </tbody>
+          </table>
+
+      </div>
 
     </div>
 
     <!-- footer -->
     <div class="app-footer">
+      <div class="container">
+      Designed and built with all the love in the world by @mdo and @fat. Maintained by the core team with the help of our contributors.
+      Code licensed MIT, docs CC BY 3.0.
+      </div>
 
     </div>
 
     <!-- aside -->
-    <div class="app-aside">
-
-    </div>
+    <div class="app-aside"></div>
 
     <script>
     $(function(){
